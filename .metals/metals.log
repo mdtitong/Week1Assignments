@@ -1,0 +1,132 @@
+[0m2021.10.15 15:48:19 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Erica\Desktop\revature\assignments\assignmentweek1' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.15 15:48:20 INFO  time: initialize in 0.89s[0m
+[0m2021.10.15 15:48:20 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.15 15:48:20 WARN  no build target for: C:\Users\Erica\Desktop\revature\assignments\assignmentweek1\src\main\scala\Main.scala[0m
+[0m2021.10.15 15:48:24 INFO  running 'C:\Program Files\Java\jdk1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Erica\AppData\Local\Temp\metals484307248939218851\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.15 15:48:25 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.15 15:48:29 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_261)[0m
+[0m2021.10.15 15:48:30 INFO  time: code lens generation in 5.99s[0m
+[0m2021.10.15 15:48:30 INFO  time: code lens generation in 7.95s[0m
+[0m2021.10.15 15:48:33 INFO  [info] loading settings for project assignmentweek1-build-build from metals.sbt ...[0m
+[0m2021.10.15 15:48:35 INFO  [info] loading project definition from C:\Users\Erica\Desktop\revature\assignments\assignmentweek1\project\project[0m
+[0m2021.10.15 15:48:40 INFO  [info] loading settings for project assignmentweek1-build from metals.sbt ...[0m
+[0m2021.10.15 15:48:40 INFO  [info] loading project definition from C:\Users\Erica\Desktop\revature\assignments\assignmentweek1\project[0m
+[0m2021.10.15 15:48:45 INFO  [success] Generated .bloop\assignmentweek1-build.json[0m
+[0m2021.10.15 15:48:45 INFO  [success] Total time: 5 s, completed Oct 15, 2021 3:48:45 PM[0m
+[0m2021.10.15 15:48:48 INFO  [info] loading settings for project assignmentweek1 from build.sbt ...[0m
+[0m2021.10.15 15:48:48 INFO  [info] set current project to hello-world (in build file:/C:/Users/Erica/Desktop/revature/assignments/assignmentweek1/)[0m
+[0m2021.10.15 15:48:50 INFO  [success] Generated .bloop\assignmentweek1-test.json[0m
+[0m2021.10.15 15:48:50 INFO  [success] Generated .bloop\assignmentweek1.json[0m
+[0m2021.10.15 15:48:50 INFO  [success] Total time: 1 s, completed Oct 15, 2021 3:48:50 PM[0m
+[0m2021.10.15 15:48:50 INFO  time: ran 'sbt bloopInstall' in 25s[0m
+[0m2021.10.15 15:48:50 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 37015'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Erica\Desktop\revature\assignments\assignmentweek1\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Erica\Desktop\revature\assignments\assignmentweek1\.bloop\assignmentweek1.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Erica\Desktop\revature\assignments\assignmentweek1\.bloop\assignmentweek1-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => C:\Users\Erica\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar
+[0m[32m[D][0m   => C:\Users\Erica\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar
+[0m[32m[D][0m   => C:\Users\Erica\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\Erica\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar
+[0m[32m[D][0m   => C:\Users\Erica\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'assignmentweek1-test'
+[0m[32m[D][0m Missing analysis file for project 'assignmentweek1'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:37015...
+The server is listening for incoming connections at tcp://127.0.0.1:37015...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 15:48:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Erica\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 15:48:50 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31444'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31444...
+The server is listening for incoming connections at tcp://127.0.0.1:31444...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 15:48:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Erica\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 15:48:51 INFO  time: Connected to build server in 1.25s[0m
+[0m2021.10.15 15:48:51 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.15 15:48:51 INFO  time: Imported build in 0.11s[0m
+[0m2021.10.15 15:48:55 INFO  time: indexed workspace in 4.37s[0m
+[0m2021.10.15 15:48:56 INFO  compiling assignmentweek1 (1 scala source)[0m
+[0m2021.10.15 15:48:56 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.15 15:49:03 INFO  time: compiled assignmentweek1 in 7.27s[0m
+[0m2021.10.15 15:50:00 INFO  compiling assignmentweek1 (1 scala source)[0m
+[0m2021.10.15 15:50:03 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.15 15:50:03 INFO  time: compiled assignmentweek1 in 3.23s[0m
+[0m2021.10.15 15:50:39 INFO  compiling assignmentweek1 (1 scala source)[0m
+[0m2021.10.15 15:50:39 INFO  time: compiled assignmentweek1 in 0.96s[0m
+[0m2021.10.15 15:50:44 INFO  compiling assignmentweek1 (1 scala source)[0m
+[0m2021.10.15 15:50:45 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.15 15:50:45 INFO  time: compiled assignmentweek1 in 1.62s[0m
+[0m2021.10.15 15:50:59 INFO  compiling assignmentweek1 (1 scala source)[0m
+[0m2021.10.15 15:51:01 WARN  3 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+[0m2021.10.15 15:51:01 INFO  time: compiled assignmentweek1 in 2.34s[0m
+[0m2021.10.15 16:09:52 INFO  shutting down Metals[0m
+[0m2021.10.15 16:09:53 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.15 16:09:53 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.15 16:11:09 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\Erica\Desktop\revature\assignments\assignmentweek1' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.15 16:11:10 INFO  time: initialize in 0.84s[0m
+[0m2021.10.15 16:11:11 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.15 16:11:10 WARN  no build target for: C:\Users\Erica\Desktop\revature\assignments\assignmentweek1\src\main\scala\Assignments.scala[0m
+[0m2021.10.15 16:11:11 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 14950'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:14950...
+The server is listening for incoming connections at tcp://127.0.0.1:14950...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 16:11:16 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.15 16:11:19 WARN  no build target for: C:\Users\Erica\Desktop\revature\assignments\assignmentweek1\src\main\scala\Assignments.scala[0m
+[0m2021.10.15 16:11:19 WARN  no build target for: C:\Users\Erica\Desktop\revature\assignments\assignmentweek1\src\main\scala\Assignments.scala[0m
+[0m2021.10.15 16:11:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Erica\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 16:11:19 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34223'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34223...
+The server is listening for incoming connections at tcp://127.0.0.1:34223...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.15 16:11:21 WARN  no build target for: C:\Users\Erica\Desktop\revature\assignments\assignmentweek1\src\main\scala\Assignments.scala[0m
+[0m2021.10.15 16:11:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Erica\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.15 16:11:21 INFO  time: Connected to build server in 10s[0m
+[0m2021.10.15 16:11:21 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.15 16:11:21 INFO  time: Imported build in 0.29s[0m
+[0m2021.10.15 16:11:24 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.15 16:11:25 INFO  time: code lens generation in 14s[0m
+[0m2021.10.15 16:11:25 INFO  time: code lens generation in 7.08s[0m
+[0m2021.10.15 16:11:25 INFO  time: code lens generation in 6.33s[0m
+[0m2021.10.15 16:11:25 INFO  time: code lens generation in 6.29s[0m
+[0m2021.10.15 16:11:26 INFO  time: indexed workspace in 4.56s[0m
+[0m2021.10.15 16:11:27 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+[0m2021.10.15 16:33:19 INFO  shutting down Metals[0m
+[0m2021.10.15 16:33:19 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.15 16:33:19 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.15 16:33:19 ERROR Unexpected error initializing server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  Boxed InterruptedException
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:237)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:229)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
